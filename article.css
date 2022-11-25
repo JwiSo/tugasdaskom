@@ -1,0 +1,123 @@
+/* walpaper */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    background: url(cloud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* navbar */
+.fcontainer{
+    width: 100%;
+    
+}
+
+.wrapper{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 7px 15px 0 rgba(rgb(0, 0, 0), green, blue, alpha);
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.firstname{
+    color: white;
+    font-weight: 700px;
+}
+
+.lastname{
+    padding-left: 4px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.navigation{
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.navigation img:hover{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all .3s ease-in-out;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* article */
+/* story */
+/* box */
+.article{
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+.isi{
+    padding: 30px;
+}
+.box{
+    justify-content: center;
+    display: flex;
+}
+.article .box .materi{
+    width: 300px;
+    height: 300px;
+    padding-left: 40px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+.article .box .dosen{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    padding-top: 30px;
+    padding-left: 0;
+}
+.gambar{
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-left: 0;
+    text-align: center;
+    
+}
+
+footer{
+    margin-top: 150px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
